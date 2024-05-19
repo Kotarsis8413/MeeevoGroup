@@ -8,6 +8,7 @@ const pages = {
             <h3 className="center">Главная</h3>
             <span className="m10">MeeevoGroup - небольшая команда разработчиков-любителей, которой нечем заняться. 
             Именно по этому мы можем предложить порой никому не нужные проекты, но которые могут быть интересными.</span>
+            <span className="m10">Код сайта доступен <a href="https://github.com/Kotarsis8413/MeeevoGroup">здесь</a></span>
         </div>
     ),
     contacts: (
@@ -21,7 +22,7 @@ const pages = {
     projects: (
         <div>
             <h3 className="center">Проекты</h3>
-            <span className="m10">Пока что мы не успели ничего сделать кроме этого сайта, если интересно, то он написан на React js
+            <span className="m10">Пока что мы не успели ничего сделать кроме этого сайта, если интересно, то он написан на React js.
             </span>
         </div>
     )
