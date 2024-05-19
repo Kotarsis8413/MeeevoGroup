@@ -76,9 +76,9 @@ const pages = {
 
 const [currentPage, setCurrentPage] = useState('main');
 
-const handlePageChange = (page) => {
-  setCurrentPage(page);
-};
+function cp(page) {
+    setCurrentPage(page);
+}
 
 root.render(
   <BrowserRouter>
