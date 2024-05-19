@@ -31,13 +31,13 @@ root.render(pages.mainpage);
 
 function changePage(page) {
     switch (page) {
-        case "main":
+        case 'main':
             root.render(pages.mainpage);
             break;
-        case "contacts":
+        case 'contacts':
             root.render(pages.contacts);
             break;
-        case "projects":
+        case 'projects':
             root.render(pages.projects);
             break;
         default:
