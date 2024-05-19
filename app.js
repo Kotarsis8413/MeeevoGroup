@@ -44,6 +44,8 @@ function setToProjects() {
     root.render(projects);
 }*/
 
+import {useState} from 'react';
+
 const appM = document.getElementById("info");
 const root = ReactDOM.createRoot(appM);
 
