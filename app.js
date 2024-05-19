@@ -44,10 +44,6 @@ function setToProjects() {
     root.render(projects);
 }*/
 
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-
 const appM = document.getElementById("info");
 const root = ReactDOM.createRoot(appM);
 
