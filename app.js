@@ -26,16 +26,16 @@ const projects = (
     </div>
 )
 
-root.render(mainpage, app);
+root.render(mainpage);
 
 function setToMain() {
-    root.render(mainpage, app);
+    root.render(mainpage);
 }
 
 function setToContacts() {
-    root.render(contacts, app);
+    root.render(contacts);
 }
 
 function setToProjects() {
-    root.render(projects, app);
+    root.render(projects);
 }
