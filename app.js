@@ -84,11 +84,6 @@ const handlePageChange = (page) => {
 
 root.render(
   <BrowserRouter>
-    <nav>
-      <Link to="/" onClick={() => handlePageChange('main')}>Главная</Link>
-      <Link to="/contacts" onClick={() => handlePageChange('contacts')}>Контакты</Link>
-      <Link to="/projects" onClick={() => handlePageChange('projects')}>Проекты</Link>
-    </nav>
     <Route path="/" exact>
       {currentPage === 'main' && pages.main}
     </Route>
