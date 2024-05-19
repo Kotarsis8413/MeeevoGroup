@@ -1,5 +1,5 @@
 const appM = document.getElementById("info");
-const app = ReactDOM.createRoot(appM);
+const root = ReactDOM.createRoot(appM);
 
 const mainpage = (
     <div>
