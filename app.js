@@ -8,7 +8,7 @@ const pages = {
             <h3 className="center">Главная</h3>
             <span className="m10">MeeevoGroup - небольшая команда разработчиков-любителей, которой нечем заняться. 
             Именно по этому мы можем предложить порой никому не нужные проекты, но которые могут быть интересными.</span>
-            <span className="m10">Код сайта доступен <a href="https://github.com/Kotarsis8413/MeeevoGroup"> здесь</a></span>
+            <span className="m10"><a href="https://github.com/Kotarsis8413/MeeevoGroup">Код сайта доступен здесь</a></span>
         </div>
     ),
     contacts: (
