@@ -26,7 +26,7 @@ const pages = {
                 <div className="pBlock">
                     <div><h4 className="center">MeeevoShop</h4></div>
                     <div><span>pet-проект, интернет магазин</span></div>
-                    <div><a href="">GitHub репозиторий</a><a href="">Сайт</a></div>
+                    <div><a href="">GitHub репозиторий</a> <a href="">Сайт</a></div>
                 </div>
                 <div className="pBlock">
                     <h4 className="center">test2</h4>
