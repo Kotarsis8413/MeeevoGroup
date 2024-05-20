@@ -1,6 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
 const appM = document.getElementById("info");
 const root = ReactDOM.createRoot(appM);
 
