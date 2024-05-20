@@ -177,8 +177,8 @@ itemPool {
     background-color: rgb(177, 177, 177);
     border: 5px solid gray;
     border-radius: 100px;
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 400px;
 }
 
 .overflowauto {
