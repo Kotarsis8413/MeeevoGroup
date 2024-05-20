@@ -25,7 +25,7 @@ const pages = {
             <div className="pBlock m10">
                 <h4 className="center">MeeevoShop</h4>
             </div>
-            <div className="pBlock m10">
+            <div className="pBlock">
                 <h4 className="center">MeeevoShop</h4>
             </div>
         </div>
