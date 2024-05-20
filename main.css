@@ -164,3 +164,11 @@ low {
     width: 400px;
     height: 250px;
 }
+
+.item {
+    background-color: rgb(177, 177, 177);
+    border: 5px solid gray;
+    border-radius: 100px;
+    width: 400px;
+    height: 250px;
+}
