@@ -22,7 +22,7 @@ const pages = {
     projects: (
         <div>
             <h3 className="center">Проекты</h3>
-            <div className="m10" style="height: 100%; width: 100%;">
+            <div className="m10" style={{width: '100%', height: '100%'}}>
                 <div className="pBlock">
                     <h4 className="center">MeeevoShop</h4>
                     <span>pet-проект, интернет магазин</span>
