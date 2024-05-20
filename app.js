@@ -26,7 +26,7 @@ const pages = {
                 <div className="pBlock">
                     <div><h4 className="center">MeeevoShop</h4></div>
                     <div><span>pet-проект, интернет магазин</span></div>
-                    <div><a href="">GitHub репозиторий</a> <a href="">Сайт</a> <a href="info?i=MeeevoShop">Подробная информация</a></div>
+                    <div><a href="">GitHub репозиторий</a> <a href="">Сайт</a> <a onClick="changePage('MeeevoShopI')">Подробная информация</a></div>
                 </div>
                 <div className="pBlock">
                     <h4 className="center">test2</h4>
@@ -35,7 +35,22 @@ const pages = {
             </div>
             
         </div>
-    )
+    ),
+    info: {
+        default: (
+            <div>
+                <h3 className="center">Информация</h3>
+                <span className="m10">Тут нету информации</span>
+            </div>
+        ),
+        meeevoshop: (
+            <div>
+                <h3 className="center">MeeevoShop</h3>
+                <span className="m10">MeeevoShop - интернет магазин с различными товарами(нельзя купить), авторизацией, корзиной и админ панелью.</span>
+                <span className="m10">Сайт написан на html, css, react</span>
+            </div>
+        )
+    }
 };
 
 root.render(pages.mainpage);
@@ -50,6 +65,12 @@ function changePage(page) {
             break;
         case 'projects':
             root.render(pages.projects);
+            break;
+        case 'info':
+            root.render(pages.info.default);
+            break;
+        case 'MeeevoShopI':
+            root.render(pages.info.meeevoshop);
             break;
         default:
             root.render(<h1>RENDER ERROR</h1>);
