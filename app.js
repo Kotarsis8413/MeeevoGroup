@@ -36,7 +36,7 @@ const pages = {
             
         </div>
     ),
-    meeevoshopINFO: (
+    meeevoshopi: (
         <div>
             <h3 className="center">MeeevoShop</h3>
             <span className="m10">MeeevoShop - интернет магазин с различными товарами(нельзя купить), авторизацией, корзиной и админ панелью.</span>
@@ -59,7 +59,7 @@ function changePage(page) {
             root.render(pages.projects);
             break;
         case 'meeevoshopi':
-            root.render(pages.meeevoshopINFO);
+            root.render(pages.meeevoshopi);
             break;
         default:
             root.render(<h1>RENDER ERROR</h1>);
