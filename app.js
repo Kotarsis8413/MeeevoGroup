@@ -22,17 +22,15 @@ const pages = {
     projects: (
         <div>
             <h3 className="center">Проекты</h3>
-            <div className="m10" style={{width: '100%', height: '100%'}}>
-                <div className="pBlock">
-                    <h4 className="center">MeeevoShop</h4>
-                    <span>pet-проект, интернет магазин</span>
-                    <a href="">GitHub репозиторий</a>
-                    <a href="">Сайт</a>
-                </div>
-                <div className="pBlock">
-                    <h4 className="center">test2</h4>
-                    <span>тест</span>
-                </div>
+            <div className="pBlock">
+                <h4 className="center">MeeevoShop</h4>
+                <span>pet-проект, интернет магазин</span>
+                <a href="">GitHub репозиторий</a>
+                <a href="">Сайт</a>
+            </div>
+            <div className="pBlock">
+                <h4 className="center">test2</h4>
+                <span>тест</span>
             </div>
             
         </div>
