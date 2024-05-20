@@ -26,7 +26,7 @@ const pages = {
                 <div className="pBlock">
                     <div><h4 className="center">MeeevoShop</h4></div>
                     <div><span>pet-проект, интернет магазин</span></div>
-                    <div><a href="">GitHub репозиторий</a> <a href="">Сайт</a> <a onClick={changePage('MeeevoShopI')}>Подробная информация</a></div>
+                    <div><a href="">GitHub репозиторий</a> <a href="">Сайт</a> <button onClick={changePage('meeevoshopi')}>Информация</button></div>
                 </div>
                 <div className="pBlock">
                     <h4 className="center">test2</h4>
@@ -58,7 +58,7 @@ function changePage(page) {
         case 'projects':
             root.render(pages.projects);
             break;
-        case 'MeeevoShopI':
+        case 'meeevoshopi':
             root.render(pages.meeevoshopINFO);
             break;
         default:
