@@ -148,6 +148,18 @@ low {
     margin-right: 10%;
 }
 
+.m22 {
+    display: flex;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.m50 {
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
 .svetyashka {
     color: black;
     transition: 2s;
