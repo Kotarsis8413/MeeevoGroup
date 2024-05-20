@@ -98,7 +98,7 @@ main {
     top: 12%;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 header .navbtn {
@@ -179,4 +179,8 @@ itemPool {
     border-radius: 100px;
     width: 500px;
     height: 700px;
+}
+
+.overflowauto {
+    overflow: auto;
 }
