@@ -22,8 +22,8 @@ const pages = {
     projects: (
         <div>
             <h3 className="center">Проекты</h3>
-            <div>
-                <div className="pBlock m10">
+            <div className="m10">
+                <div className="pBlock">
                     <h4 className="center">MeeevoShop</h4>
                     <span>pet-проект, интернет магазин</span>
                     <a href="">GitHub репозиторий</a>
