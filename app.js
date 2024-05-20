@@ -24,16 +24,9 @@ const pages = {
             <h3 className="center">Проекты</h3>
             <div className="m10" style={{width: '100%', height: '100%'}}>
                 <div className="pBlock">
-                    <div>
-                    <h4 className="center">MeeevoShop</h4>
-                    </div>
-                    <div>
-                    <span>pet-проект, интернет магазин</span>
-                    </div>
-                    <div>
-                    <a href="">GitHub репозиторий</a>
-                    <a href="">Сайт</a>
-                    </div>
+                    <div><h4 className="center">MeeevoShop</h4></div>
+                    <div><span>pet-проект, интернет магазин</span></div>
+                    <div><a href="">GitHub репозиторий</a><a href="">Сайт</a></div>
                 </div>
                 <div className="pBlock">
                     <h4 className="center">test2</h4>
