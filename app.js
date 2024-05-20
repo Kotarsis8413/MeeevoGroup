@@ -47,7 +47,7 @@ const pages = {
 
 root.render(pages.mainpage);
 
-function changePage(page) {
+const changePage = (page) => {
     switch (page) {
         case 'main':
             root.render(pages.mainpage);
