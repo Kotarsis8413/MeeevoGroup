@@ -22,8 +22,12 @@ const pages = {
     projects: (
         <div>
             <h3 className="center">Проекты</h3>
-            <span className="m10">Пока что мы не успели ничего сделать кроме этого сайта, если интересно, то он написан на React js.
-            </span>
+            <div className="pBlock m10">
+                <h4 className="center">MeeevoShop</h4>
+            </div>
+            <div className="pBlock m10">
+                <h4 className="center">MeeevoShop</h4>
+            </div>
         </div>
     )
 };

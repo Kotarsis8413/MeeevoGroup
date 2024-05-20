@@ -156,3 +156,9 @@ low {
     color: rgb(197, 253, 113);
     transition: 50ms;
 }
+
+.pBlock {
+    background-color: rgb(177, 177, 177);
+    border: 2px solid gray;
+    border-radius: 100px; 
+}
