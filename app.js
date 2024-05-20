@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 const appM = document.getElementById("info");
 const root = ReactDOM.createRoot(appM);
 
@@ -37,7 +40,7 @@ const pages = {
         </div>
     ),
     info: {
-        default: (
+        general: (
             <div>
                 <h3 className="center">Информация</h3>
                 <span className="m10">Тут нету информации</span>
@@ -67,7 +70,7 @@ function changePage(page) {
             root.render(pages.projects);
             break;
         case 'info':
-            root.render(pages.info.default);
+            root.render(pages.info.general);
             break;
         case 'MeeevoShopI':
             root.render(pages.info.meeevoshop);
