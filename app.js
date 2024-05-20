@@ -36,21 +36,13 @@ const pages = {
             
         </div>
     ),
-    info: {
-        general: (
-            <div>
-                <h3 className="center">Информация</h3>
-                <span className="m10">Тут нету информации</span>
-            </div>
-        ),
-        meeevoshop: (
-            <div>
-                <h3 className="center">MeeevoShop</h3>
-                <span className="m10">MeeevoShop - интернет магазин с различными товарами(нельзя купить), авторизацией, корзиной и админ панелью.</span>
-                <span className="m10">Сайт написан на html, css, react</span>
-            </div>
-        )
-    }
+    meeevoshopINFO: (
+        <div>
+            <h3 className="center">MeeevoShop</h3>
+            <span className="m10">MeeevoShop - интернет магазин с различными товарами(нельзя купить), авторизацией, корзиной и админ панелью.</span>
+            <span className="m10">Сайт написан на html, css, react</span>
+        </div>
+    )
 };
 
 root.render(pages.mainpage);
@@ -66,11 +58,8 @@ function changePage(page) {
         case 'projects':
             root.render(pages.projects);
             break;
-        case 'info':
-            root.render(pages.info.general);
-            break;
         case 'MeeevoShopI':
-            root.render(pages.info.meeevoshop);
+            root.render(pages.meeevoshopINFO);
             break;
         default:
             root.render(<h1>RENDER ERROR</h1>);
