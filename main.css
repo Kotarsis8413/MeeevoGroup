@@ -5,7 +5,7 @@
 
 * {
     color: var(--bg-color-1);
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Bradley Hand", cursive;
     overflow-x: hidden;
 }
 
@@ -199,4 +199,20 @@ low {
 
 .overflowauto {
     overflow: auto;
+}
+
+.cartbtn {
+    background-color:rgb(32, 32, 32);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px;
+    transition: 1s;
+}
+.cartbtn:hover {
+    background-color: white;
+    color: black;
+    border-color:rgb(107, 107, 107);
+    display: flex;
+    margin-bottom: 10px;
 }
