@@ -108,6 +108,7 @@ header .navbtn {
     border: 3px solid black;
     border-radius: 100px;
     height: 75px;
+    display: inline-block;
 }
 header .navbtn:hover {
     background-color: rgb(32, 32, 32);
