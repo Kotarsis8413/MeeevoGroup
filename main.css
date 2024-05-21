@@ -92,6 +92,7 @@ header {
     display: flex;
     align-items: center;
     overflow-x: scroll;
+    white-space: nowrap;
 }
 main {
     position: absolute;
@@ -187,6 +188,7 @@ low {
     display: flex;
     flex-wrap: wrap;
     overflow-x: scroll;
+    white-space: nowrap;
 }
 
 .item {
