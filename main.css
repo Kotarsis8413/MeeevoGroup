@@ -183,6 +183,8 @@ low {
     height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .item {
