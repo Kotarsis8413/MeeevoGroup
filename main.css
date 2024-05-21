@@ -213,6 +213,7 @@ low {
     border-color: black;
     border-radius: 100px;
     transition: 1s;
+    height: 100px;
 }
 .cartbtn:hover {
     background-color: white;
@@ -221,4 +222,5 @@ low {
     border-color:rgb(107, 107, 107);
     border-radius: 100px;
     transition: 1s;
+    height: 100px;
 }
