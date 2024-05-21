@@ -91,7 +91,7 @@ header {
     height: 75px;
     display: flex;
     align-items: center;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 main {
     position: absolute;
@@ -186,7 +186,7 @@ low {
     overflow-y: hidden;
     display: flex;
     flex-wrap: wrap;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 
 .item {
