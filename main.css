@@ -191,6 +191,8 @@ itemPool {
     border-radius: 100px;
     width: 400px;
     height: 400px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .overflowauto {
