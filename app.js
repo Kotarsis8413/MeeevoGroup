@@ -6,15 +6,14 @@ const pages = {
     mainpage: (
         <div>
             <h3 className="center">Главная</h3>
-            <span className="m10">MeeevoGroup - небольшая команда разработчиков-любителей, которой нечем заняться. 
-            Именно по этому мы можем предложить порой никому не нужные проекты, но которые могут быть интересными.</span>
+            <span className="m10">Я начинающий fullstack разработчик</span>
             <span className="m10"><a href="https://github.com/Kotarsis8413/MeeevoGroup">Код сайта доступен здесь</a></span>
         </div>
     ),
     contacts: (
         <div>
             <h3 className="center">Контакты</h3>
-            <span className="m10">Не уверены, что кому-то захочется связаться с нами, но если хотите: 
+            <span className="m10">Не уверены, что кому-то захочется связаться со мной, но если хотите: 
             kotarsis8413@bk.ru - почта
             </span>
         </div>
